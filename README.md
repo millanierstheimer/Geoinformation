@@ -46,6 +46,19 @@ Grundlage ist ein historischer Stadtplan von **Berlin aus dem Jahr 1833**, der i
 
 Durch das Georeferenzieren und Digitalisieren lassen sich historische Stadtgrenzen räumlich auswerten und punktuelle Landmarken wie Kirchen systematisch in einem GIS erfassen.
 
-EP. 03 | Standortanalyse
+## EP. 03 | Standortanalyse
 
-<img width="992" height="720" alt="potenzielle_fussballstandorte_berlin" src="https://github.com/user-attachments/assets/bfe58112-0145-4726-a32f-26c793724bd1" />
+
+<p align="center">
+  <img width="992" height="720" alt="potenzielle_fussballstandorte_berlin" src="https://github.com/user-attachments/assets/bfe58112-0145-4726-a32f-26c793724bd1" />
+</p>
+
+### Umsetzung der Methode
+
+Ziel der Analyse war es, anhand frei verfügbarer Geodaten geeignete Standorte für den Neubau von Fußballplätzen innerhalb der Berliner Bezirke zu ermitteln. Als Grundlage dienten Vektordaten von **OpenStreetMap / Geofabrik** (`gis_osm_landuse_a_free_1`, `gis_osm_water_a_free_1`, `gis_osm_roads_free_1`, `gis_osm_transport_free_1`) sowie der Datensatz zu den **Berliner Naturschutzgebieten** (`Berlin_NSG.shp`).
+
+Ausgangspunkt waren unbebaute Grün- und Wiesenflächen (`grass`, `meadow`) mit einer Mindestgröße von **1 Hektar**, die über Puffer-, Verschneidungs- und Filteroperationen mit sieben Standortkriterien abgeglichen wurden: ein Abstand von **500 bis 1.000 m** zu Wohngebieten (`residential`), mindestens **500 m** Abstand zu Naturschutzgebieten, der Ausschluss von Wasserflächen sowie eine maximale Entfernung von jeweils **500 m** zu Hauptverkehrsstraßen (`motorway`, `trunk`, `primary`, `secondary`) und ÖPNV-Haltestellen (`bus_stop`, `railway_halt`, `railway_station`, `tram_stop`).
+
+Durch die Verknüpfung aller Kriterien ließen sich in Berlin **12 potenzielle Standorte** identifizieren, die in der Karte vor den Berliner Bezirksgrenzen makiert sind.
+
+
