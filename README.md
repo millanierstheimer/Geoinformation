@@ -30,10 +30,21 @@ Im Layout von **QGIS** wurden vier Choroplethenkarten im Maßstab **1 : 450.000*
 
 Durch die direkte Gegenüberstellung wird deutlich, wie stark die Wahl des Indikators (absolut vs. relativ) und der Klassenbildung die Interpretation scheinbar objektiver statistischer Daten beeinflusst.
 
+## EP. 02 | UE 3 & UE4 | Georeferenzieren & Digitalisieren | Kirche
 
-EP. 02 | UE 3 & UE4 | Georeferenzieren & Digitalisieren | Kirche
+<p align="center">
+  <img width="992" height="720" alt="berlin_1833_Kirche" src="https://github.com/user-attachments/assets/bb64b5e3-a0a1-4d3e-92dd-4e1c0f4d41b1" />
 
-<img width="992" height="720" alt="berlin_1833_Kirche" src="https://github.com/user-attachments/assets/bb64b5e3-a0a1-4d3e-92dd-4e1c0f4d41b1" />
+</p>
+
+### Umsetzung der Methode
+
+Grundlage ist ein historischer Stadtplan von **Berlin aus dem Jahr 1833**, der in **QGIS** anhand bekannter Passpunkte georeferenziert wurde. Anschließend erfolgte die Digitalisierung von zwei Vektorebenen:
+
+1. Die historische Ausdehnung Berlins entlang der eingezeichneten Stadtmauer wurde als Polygon digitalisiert und die zugehörige Fläche über den Feldrechner in einer neuen Spalte der Attributtabelle berechnet.
+2.  Parallel dazu entstand für die Objektkategorie *Kirche* ein sechsteiliges Datenbankschema, auf dessen Basis fünf Kirchenstandorte als Punktgeometrien erfasst und attributiert wurden.
+
+Durch das Georeferenzieren und Digitalisieren lassen sich historische Stadtgrenzen räumlich auswerten und punktuelle Landmarken wie Kirchen systematisch in einem GIS erfassen.
 
 EP. 03 | Standortanalyse
 
