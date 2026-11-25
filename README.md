@@ -16,10 +16,20 @@ Anschließend erfolgte eine kategorisierte Symbolisierung der Planungsräume anh
 
 Durch die abgestufte Farbwahl treten räumliche Disparitäten sowie sozialräumliche Schwerpunkte innerhalb des Berliner Stadtgebiets auf Ebene der Planungsräume deutlich hervor.
 
+## EP. 01 | UE 2 | Datenklassifikation
 
-EP. 01 | UE 2 | Datenklassifikation
+<p align="center">
+  <img width="842" height="600" alt="Bevölkerungsverteilung_Berlin2019" src="https://github.com/user-attachments/assets/caa549c9-7f41-4225-96fb-fc7a943a4279" />
+</p>
 
-<img width="842" height="600" alt="Bevölkerungsverteilung_Berlin2019" src="https://github.com/user-attachments/assets/caa549c9-7f41-4225-96fb-fc7a943a4279" />
+### Umsetzung der Methode
+
+Grundlage sind die Einwohnerdaten des **Amtes für Statistik Berlin-Brandenburg (Stand 2019)**, die in **QGIS** über den gemeinsamen Raumschlüssel mit den Geometrien der Berliner Lebensweltlich orientierten Räume (**LOR-Planungsräume**) verknüpft wurden. 
+
+Im Layout von **QGIS** wurden vier Choroplethenkarten im Maßstab **1 : 450.000** gegenübergestellt, um den Einfluss unterschiedlicher Bezugsgrößen und Klassifizierungsmethoden auf die räumliche Wahrnehmung zu untersuchen. Verglichen werden die **absolute Bevölkerung** (klassifiziert nach *Natürlichen Unterbrechungen / Jenks*) sowie die **Bevölkerungsdichte (Einwohner/km²)** nach **Jenks**, **Quantilen** und **gleichen Intervallen** in einer fünfstufigen blauen Farbskala.
+
+Durch die direkte Gegenüberstellung wird deutlich, wie stark die Wahl des Indikators (absolut vs. relativ) und der Klassenbildung die Interpretation scheinbar objektiver statistischer Daten beeinflusst.
+
 
 EP. 02 | UE 3 & UE4 | Georeferenzieren & Digitalisieren | Kirche
 
