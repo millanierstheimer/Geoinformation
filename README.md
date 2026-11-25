@@ -1,8 +1,21 @@
-# Geoinformation
+# Geoinformationen | WiSe 2026
 
-EP. 01 | UE 1 | Einführung in QGIS | Soziale Stadtentwicklung
 
+
+## EP. 01 | UE 1 – Einführung in QGIS: Soziale Stadtentwicklung
+
+<p align="center">
 <img width="3507" height="2480" alt="soz stadtentwicklung" src="https://github.com/user-attachments/assets/70154a12-31c3-4e08-bb7d-e1c6b1c9b997" />
+</p>
+
+### Umsetzung der Methode
+
+Grundlage sind die Geometrien der Berliner Lebensweltlich orientierten Räume (**LOR-Planungsräume**) sowie die Sachdaten aus dem **Monitoring Soziale Stadtentwicklung (MSS) 2025** der Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen. In **QGIS** wurden die Tabellendaten über den gemeinsamen Raumschlüssel mit den Vektorgeometrien verknüpft (Attribut-Join).
+
+Anschließend erfolgte eine kategorisierte Symbolisierung der Planungsräume anhand der vier **Statusklassen** (*hoch*, *mittel*, *niedrig* und *sehr niedrig*). Im Layout von **QGIS** wurde die Berlinkarte im Maßstab **1 : 300.000** vor einem dunklen Hintergrund aufbereitet und um kartografische Basiselemente wie Titel, Legende, Maßstabsleiste und Quellenangaben ergänzt.
+
+Durch die abgestufte Farbwahl treten räumliche Disparitäten sowie sozialräumliche Schwerpunkte innerhalb des Berliner Stadtgebiets auf Ebene der Planungsräume deutlich hervor.
+
 
 EP. 01 | UE 2 | Datenklassifikation
 
